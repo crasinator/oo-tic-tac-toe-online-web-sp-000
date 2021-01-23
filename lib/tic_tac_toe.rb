@@ -68,10 +68,9 @@ class TicTacToe
      position_2 = @board[indextwo] 
      position_3 = @board[indexthree] 
      
-     if position_1 == position_2 && position_2 == position_3 && position_taken?(indexone)
+    if position_1 == position_2 && position_2 ==   position_3 && position_taken?(indexone)
        combo 
-     else
-        return false
+       return combo 
     end
   end
 end
